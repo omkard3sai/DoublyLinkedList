@@ -1,11 +1,12 @@
-# Basic Implemetation of Stack
+# Doubly Linked List
 
-A stack allows storing of data such that it can be accessed in LIFO order.
+A list of connected noded that allows navigation in both forward and backward direction.
 
 ### Functions
-- push() − push an element on the stack.
-- pop() − return the top element from the stack.
-- peek() − return the top element of the stack without removing it.
-- isfullstatus() − check if the stack is full.
-- isemptystatus() - check if the stack is empty.
-- print() - print the current stack.
+- insertend() − add node at tail (end) of list.
+- insertstart() − add node at head (start) of list.
+- retrieveend() - get and remove node at tail (end) of list.
+- retrievestart() − get and remove node at head (start) of list.
+- displayforward() − return the top element of the stack without removing it.
+- displaybackward() − check if the stack is full.
+- isempty() - check if the list is empty.
